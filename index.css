@@ -1,0 +1,14 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+}
+nav{
+  display: flex;
+  flex-direction: column;
+}
