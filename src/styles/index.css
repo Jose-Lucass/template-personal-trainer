@@ -14,6 +14,9 @@ header{
   justify-content: space-around;
   align-items: center;
 }
+
+
+
 nav{
   display: flex;
   gap: 20px;
@@ -41,7 +44,7 @@ main{
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-image: url("./../img/svg/Gostosa\ de\ academia.svg");  
+  background-image: url("./../img/svg/image\ 8.svg");  
   height: 1000px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +104,7 @@ section .write{
 .divider-vertical{
   height: 30px;
   width: 5px;
-  background: #D3D3D3;
+  background: #000000;
 }
 .square{
   display: flex;
@@ -109,6 +112,16 @@ section .write{
   gap: 20px;
 }
 .square i{
+  display: flex;
+  width: 400px;
+  gap: 15px;
+}
+.square2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.square2 i{
   display: flex;
   width: 400px;
   gap: 15px;
