@@ -14,22 +14,30 @@ header{
   justify-content: space-around;
   align-items: center;
 }
-nav{
+.menu{
   display: flex;
   gap: 20px;
   align-items: center;
+}
+.header-nav{
+  display: flex;
+  gap: 20px;
 }
 .planilhas{
   width: 150px;
   background-color: #FE6219;
   border-radius: 20px;
   height: 30px;
+  border: transparent;
 }
 .logo{
   width: 200px;
-  height: 200px;
-  
+  height: 200px; 
 }
+.icons{
+  justify-content: end;
+}
+
 nav > a{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
@@ -52,6 +60,11 @@ header img {
   width: 30px;
   height: 30px;
 }
+
+.menu-icon{
+  display: none;
+  
+}
 .resultado{
   font-size: 80px;
   color: white;
@@ -67,6 +80,7 @@ header img {
   width: 150px;
   height: 39px;
   border-radius: 20px;
+  border: transparent;
 }
 
 .escritas{
@@ -79,7 +93,7 @@ header img {
 
 section{
   display: flex;
-  gap: 100px;
+  gap: 40px;
   justify-content: center;
   margin-top: 100px;
 }
@@ -179,6 +193,45 @@ gap: 40px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.explication{
+  margin-top: 100px;
+  display: flex;
+  gap: 150px;
+}
+
+.write-explication{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.h1-explication :first-child{
+  font-size: 46px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 350px;
+}
+.h1-explication :nth-child(2){
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #000;
+}
+.contract{
+  width: 250px;
+  background-color: #FE6219;
+  border-radius: 20px;
+  height: 40px;
+  border: transparent;
+  color: #FFFFFF;
+}
+.hotmart{
+  height: 500px;
+  align-self: center;
+}
+
+.explication > p > img{
+  width: 10px;
+  height: 10px;
+}
 @media (max-width: 400px){
  
   .logo{
@@ -189,6 +242,21 @@ gap: 40px;
     width: 20px;
     height: 20px;
   }
+  .header-nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 120px;
+  }
+  .menu-icon{
+    width: 40px;
+    height: 40px;
+    display: block;
+  }
+
   main{
     height: 600px;
   }
