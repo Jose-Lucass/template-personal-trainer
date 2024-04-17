@@ -251,13 +251,12 @@ gap: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  text-decoration: none;
  
 }
 
-.Planos :first-child{
-  font-size: 50px;
-  
+.title-p{
+  font-size: 51px;
 }
 
 .divider {
@@ -280,27 +279,20 @@ text-decoration: none;
 
 .plano-90 :first-child{
   font-size: 40px;
-  text-decoration: none;
+ 
 }
 
 .plano-90 :nth-child(2){
   font-size: 51px;
-  text-decoration: none;
+ 
 }
-
-.plano-90 :nth-child(3){
-  font-size: 18px;
-}
-
 .plano-90 :nth-child(8){
   text-decoration: line-through;
-}
-.plano-90 :nth-child(9){
+  }
+  .plano-90 :nth-child(9){
   text-decoration: line-through;
-}
-.plano-90 :nth-child(10){
-text-decoration: none;
-}
+  }
+
 
 .plano-90 :nth-child(11){
   width: 200px;
@@ -314,7 +306,96 @@ text-decoration: none;
   gap: 5px;
   display: flex;
 }
+.plano-30{
+ width: 352px;
+ height: 675px;
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+text-align: center;
+}
 
+.plano-30 :first-child{
+  font-size: 40px;
+}
+
+.plano-30 :nth-child(2){
+  font-size: 51px;
+}
+
+.plano-30 :nth-child(3){
+  font-size: 18px;
+}
+
+.plano-30 :nth-child(7){
+text-decoration: line-through;
+}
+.plano-30 :nth-child(8){
+text-decoration: line-through;
+}
+.plano-30 :nth-child(9){
+text-decoration: line-through;
+}
+.plano-30 :nth-child(10){
+text-decoration: none;
+}
+
+.plano-30 :nth-child(11){
+  width: 200px;
+  height: 50px;
+  background-color: #000000;
+  color: #D3D3D3;
+  border: transparent;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+.plano-180{
+ width: 352px;
+ height: 675px;
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+text-align: center;
+}
+
+.plano-180 :first-child{
+  font-size: 40px;
+}
+
+.plano-180 :nth-child(2){
+  font-size: 51px;
+}
+
+.plano-180 :nth-child(3){
+  font-size: 18px;
+}
+.plano-180 :nth-child(11){
+  width: 200px;
+  height: 50px;
+  background-color: #000000;
+  color: #D3D3D3;
+  border: transparent;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+
+.all-planos{
+  display: flex;
+  flex-direction: row;
+  
+}
 
 
 
