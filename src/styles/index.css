@@ -159,6 +159,7 @@ gap: 40px;
 }
 
 .help :first-child{
+  margin-top: 50px;
   font-size: 46px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #FFFFFF;
@@ -175,6 +176,7 @@ gap: 40px;
   background-color: #FFFFFF;
   width: 360px;
   text-align: center;
+  margin-bottom: 50px;
 }
 .card-content :first-child{
   width: 360px;
@@ -189,10 +191,12 @@ gap: 40px;
   background-color: transparent;
   width: 200px;
   border: transparent;
+  
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .Passo-passo{
+  
   width: 100%;
   gap: 20px;
   background-color: #000000;
@@ -201,6 +205,7 @@ gap: 40px;
   align-items: center;
 }
 .Passo-passo :first-child{
+  margin-top: 50px;
   font-size: 46px;
   color: #FFFFFF;
 }
@@ -278,6 +283,8 @@ text-decoration: none;
 }
 
 .plano-90 :first-child{
+  display: flex;
+  margin-top: 20px;
   font-size: 40px;
  
 }
@@ -319,6 +326,8 @@ text-align: center;
 }
 
 .plano-30 :first-child{
+  display: flex;
+  margin-top: 20px;
   font-size: 40px;
 }
 
@@ -369,6 +378,9 @@ text-align: center;
 
 .plano-180 :first-child{
   font-size: 40px;
+  display: flex;
+  margin-top: 20px;
+ 
 }
 
 .plano-180 :nth-child(2){
@@ -398,6 +410,7 @@ text-align: center;
 }
 
 .Depoimentos{
+
  width: 100%;
   background-color: #000000;
   display: flex;
@@ -406,6 +419,7 @@ text-align: center;
 }
 
 .Depoimentos :first-child{
+  margin-top: 40px;
   color: white;
   font-size: 45px;
 }
@@ -421,6 +435,8 @@ text-align: center;
  gap: 50px;
 display: flex;
 flex-wrap: wrap;
+margin-bottom: 50px;
+align-items: center;
 }
 
 
@@ -432,7 +448,7 @@ flex-wrap: wrap;
 }
 
 .title-que {
-    font-size: 14px;
+    font-size: 25px;
     color: #FE6219;
 }
 
@@ -446,12 +462,13 @@ width: 732px;
 height: 69px;
 background-color: #000000;
 display: flex;
+padding-left: 20px;
 align-items: center;
 } 
 
 .segu{
   width: 649px;
-
+  padding-left: 20px;
  font-size: 15px;
 margin-top: 20px;
  }
@@ -500,6 +517,7 @@ margin-top: 20px;
 .sobre :nth-child(3){
   display: flex;
   flex-direction: column;
+  
 }
 .contato :first-child{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -550,6 +568,7 @@ margin-top: 20px;
   gap: 35px;
   
 } 
+
 @media (max-width: 400px){
  
   .logo{
