@@ -14,7 +14,9 @@ header{
   justify-content: space-around;
   align-items: center;
 }
+
 .menu{
+
   display: flex;
   gap: 20px;
   align-items: center;
@@ -49,7 +51,7 @@ main{
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-image: url("./../img/svg/Gostosa\ de\ academia.svg");  
+  background-image: url("./../img/svg/image\ 8.svg");  
   height: 1000px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,7 +118,7 @@ section .write{
 .divider-vertical{
   height: 30px;
   width: 5px;
-  background: #D3D3D3;
+  background: #000000;
 }
 .square{
   display: flex;
@@ -124,6 +126,16 @@ section .write{
   gap: 20px;
 }
 .square i{
+  display: flex;
+  width: 400px;
+  gap: 15px;
+}
+.square2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.square2 i{
   display: flex;
   width: 400px;
   gap: 15px;
@@ -161,6 +173,7 @@ gap: 40px;
 }
 
 .help :first-child{
+  margin-top: 50px;
   font-size: 46px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #FFFFFF;
@@ -173,6 +186,7 @@ gap: 40px;
   width: 1070px;
   text-align: center;
 }
+
 .all-cards{
  display: flex;
  gap: 30px;
@@ -198,8 +212,385 @@ gap: 40px;
   background-color: transparent;
   width: 200px;
   border: transparent;
+  
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.Passo-passo{
+  
+  width: 100%;
+  gap: 20px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Passo-passo :first-child{
+  margin-top: 50px;
+  font-size: 46px;
+  color: #FFFFFF;
+}
+.contract{
+  font-size: 18px;
+  color:#FE6219;
+}
+
+
+.all-cards{
+ 
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-dedo{
+  width: 332px;
+  height: 276px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: #ffffff;
+  
+}
+
+.card-dedo :first-child{
+  width: 80px;
+  height: 80px;
+
+}
+
+.card-dedo :nth-child(2){
+  font-size: 20px;
+}
+
+.card-dedo :nth-child(3){
+  font-size: 15px;
+  text-align: center;
+}
+
+.Planos{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+ 
+}
+
+.title-p{
+  font-size: 51px;
+}
+
+.divider {
+  width: 90px;
+}
+
+
+.plano-90{
+ width: 352px;
+ height: 675px;
+background-color: #FE6219;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+text-align: center;
+text-decoration: none;
+}
+
+.plano-90 :first-child{
+  display: flex;
+  margin-top: 20px;
+  font-size: 40px;
+ 
+}
+
+.plano-90 :nth-child(2){
+  font-size: 51px;
+ 
+}
+.plano-90 :nth-child(8){
+  text-decoration: line-through;
+  }
+  .plano-90 :nth-child(9){
+  text-decoration: line-through;
+  }
+
+
+.plano-90 :nth-child(11){
+  width: 200px;
+  height: 50px;
+  background-color: #000000;
+  color: #D3D3D3;
+  border: transparent;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+.plano-30{
+ width: 352px;
+ height: 675px;
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+text-align: center;
+}
+
+.plano-30 :first-child{
+  display: flex;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.plano-30 :nth-child(2){
+  font-size: 51px;
+}
+
+.plano-30 :nth-child(3){
+  font-size: 18px;
+}
+
+.plano-30 :nth-child(7){
+text-decoration: line-through;
+}
+.plano-30 :nth-child(8){
+text-decoration: line-through;
+}
+.plano-30 :nth-child(9){
+text-decoration: line-through;
+}
+.plano-30 :nth-child(10){
+text-decoration: none;
+}
+
+.plano-30 :nth-child(11){
+  width: 200px;
+  height: 50px;
+  background-color: #000000;
+  color: #D3D3D3;
+  border: transparent;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+.plano-180{
+ width: 352px;
+ height: 675px;
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+text-align: center;
+}
+
+.plano-180 :first-child{
+  font-size: 40px;
+  display: flex;
+  margin-top: 20px;
+ 
+}
+
+.plano-180 :nth-child(2){
+  font-size: 51px;
+}
+
+.plano-180 :nth-child(3){
+  font-size: 18px;
+}
+.plano-180 :nth-child(11){
+  width: 200px;
+  height: 50px;
+  background-color: #000000;
+  color: #D3D3D3;
+  border: transparent;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+
+.all-planos{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Depoimentos{
+
+ width: 100%;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Depoimentos :first-child{
+  margin-top: 40px;
+  color: white;
+  font-size: 45px;
+}
+
+.Depoimentos :nth-child(4){
+  text-align: center;
+  font-size: 19px;
+  color: white;
+}
+
+.img-depoi{
+  width: 60%;
+ gap: 50px;
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 50px;
+align-items: center;
+}
+
+
+.questions{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-que {
+    font-size: 25px;
+    color: #FE6219;
+}
+
+.questions :nth-child(2){
+  font-size: 51px
+}
+
+.primeiro{
+  color: #ffffff;
+width: 732px;
+height: 69px;
+background-color: #000000;
+display: flex;
+padding-left: 20px;
+align-items: center;
+} 
+
+.segu{
+  width: 649px;
+  padding-left: 20px;
+ font-size: 15px;
+margin-top: 20px;
+ }
+
+ .planilha{
+  
+  color: #FE6219;
+ }
+ footer{
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  width: 100%;
+  align-items: center;
+  gap: 50px;
+ }
+
+.logo-footer{
+  width: 150px;
+  height: 150px;
+}
+
+
+ .sobre{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+
+ .sobre :first-child{
+  display: flex;
+  align-items: flex-start;
+  
+ }
+ .sobre :nth-child(2){
+  color: #FE6219;
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .sobre :nth-child(3){
+  color: #D3D3D3;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 290px;
+}
+.sobre :nth-child(3){
+  display: flex;
+  flex-direction: column;
+  
+}
+.contato :first-child{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #FE6219;
+  font-size: 36px;
+ 
+}
+.contato :nth-child(2){
+  color: #D3D3D3;
+  font-size: 18px;
+}
+.contato :last-child{
+  color: #D3D3D3;
+  font-size: 18px;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+}
+.links :first-child{
+  color: #FE6219;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.links :nth-child(2){
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.redes{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.redes :first-child{
+  color: #FE6219;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.img-redes{
+  display: flex;
+  gap: 35px;
+  
+} 
+
 
 
 .explication{
@@ -241,6 +632,7 @@ gap: 40px;
   width: 10px;
   height: 10px;
 }
+
 @media (max-width: 400px){
  
   .logo{
@@ -307,7 +699,7 @@ gap: 40px;
   width: 300px;
   font-size: 18px;
   }
- 
+  
 
   
 }
