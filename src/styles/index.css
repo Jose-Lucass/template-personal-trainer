@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 header{
   width: 100%;
   height: 90px;
@@ -16,15 +17,16 @@ header{
 }
 
 .menu{
-
   display: flex;
   gap: 20px;
   align-items: center;
 }
+
 .header-nav{
   display: flex;
   gap: 20px;
 }
+
 .planilhas{
   width: 150px;
   background-color: #FE6219;
@@ -32,10 +34,12 @@ header{
   height: 30px;
   border: transparent;
 }
+
 .logo{
   width: 200px;
   height: 200px; 
 }
+
 .icons{
   justify-content: end;
 }
@@ -45,6 +49,7 @@ nav > a{
   font-size: 15px;
   color: white;
 }
+
 main{
   display: flex;
   flex-direction: column;
@@ -57,7 +62,6 @@ main{
   background-size: cover;
 }
 
-
 header img {
   width: 30px;
   height: 30px;
@@ -65,19 +69,21 @@ header img {
 
 .menu-icon{
   display: none;
-  
 }
+
 .resultado{
   font-size: 80px;
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .conhece{
   font-size: 16px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #D3D3D3;
   width: 330px;
 }
+
 .plans{
   width: 150px;
   height: 39px;
@@ -104,6 +110,7 @@ section{
   width: 400px;
   height: 400px;
 }
+
 section .write{
   display: flex;
   flex-direction: column;
@@ -115,40 +122,48 @@ section .write{
   width: 30px;
   background: #FE6219;
 }
+
 .divider-vertical{
   height: 30px;
   width: 5px;
   background: #000000;
 }
+
 .square{
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .square i{
   display: flex;
   width: 400px;
   gap: 15px;
 }
+
 .square2{
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .square2 i{
   display: flex;
   width: 400px;
   gap: 15px;
 }
+
 .write :first-child{
   color: #FE6219;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .write :nth-child(4){
   width: 350px;
   font-size: 18px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+
 .write :nth-child(5){
   width: 200px;
   height: 50px;
@@ -161,6 +176,7 @@ section .write{
   gap: 5px;
   display: flex;
 }
+
 .wpp{
   width: 15px;
 }
@@ -174,7 +190,7 @@ gap: 40px;
 margin-top: 50px;
 }
 
-.help :first-child{
+.how-help{
   font-size: 46px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #FFFFFF;
@@ -191,26 +207,33 @@ margin-top: 50px;
 .all-cards{
   display: flex;
   gap: 30px;
- 
  }
+
  .card-content{
    background-color: #FFFFFF;
-   width: 360px;
+   width: 360px ;
    text-align: center;
+   
    margin-bottom: 50px;
  }
- .card-content :first-child{
+
+
+ .img-card  {
    width: 360px;
  }
+
  .card-content :nth-child(2){
-   font-size: 30px;
+   font-size: 30px ;
    color: #000000;
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  }
+
+
 .card-content :nth-child(3){
   color: #FE6219;
   background-color: transparent;
   width: 200px;
+  height: 80px;
   border: transparent;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -224,7 +247,7 @@ margin-top: 50px;
   align-items: center;
 }
 
-.Passo-passo :first-child{
+.passo{
   margin-top: 50px;
   font-size: 46px;
   color: #FFFFFF;
@@ -234,6 +257,9 @@ margin-top: 50px;
   font-size: 18px;
   color:#FE6219;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .all-cards-p{
@@ -258,7 +284,6 @@ margin-top: 50px;
 .card-dedo :first-child{
   width: 80px;
   height: 80px;
-
 }
 
 .card-dedo :nth-child(2){
@@ -276,7 +301,6 @@ margin-top: 50px;
   flex-direction: column;
   align-items: center;
   text-decoration: none;
- 
 }
 
 .title-p{
@@ -289,23 +313,22 @@ margin-top: 50px;
 
 
 .plano-90{
- width: 352px;
- height: 675px;
-background-color: #FE6219;
-color: white;
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 30px;
-text-align: center;
-text-decoration: none;
+  width: 352px;
+  height: 675px;
+  background-color: #FE6219;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  text-decoration: none;
 }
 
-.plano-90 :first-child{
+.days{
   display: flex;
   margin-top: 20px;
   font-size: 40px;
- 
 }
 
 .plano-90 :nth-child(2){
@@ -332,23 +355,20 @@ text-decoration: none;
   gap: 5px;
   display: flex;
 }
+
+
 .plano-30{
- width: 352px;
- height: 675px;
-background-color: #ffffff;
-color: rgb(0, 0, 0);
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 30px;
-text-align: center;
+  width: 352px;
+  height: 675px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
 }
 
-.plano-30 :first-child{
-  display: flex;
-  margin-top: 20px;
-  font-size: 40px;
-}
 
 .plano-30 :nth-child(2){
   font-size: 51px;
@@ -383,6 +403,7 @@ text-decoration: none;
   gap: 5px;
   display: flex;
 }
+
 .plano-180{
  width: 352px;
  height: 675px;
@@ -395,12 +416,7 @@ gap: 30px;
 text-align: center;
 }
 
-.plano-180 :first-child{
-  font-size: 40px;
-  display: flex;
-  margin-top: 20px;
- 
-}
+
 
 .plano-180 :nth-child(2){
   font-size: 51px;
@@ -425,19 +441,17 @@ text-align: center;
 .all-planos{
   display: flex;
   flex-direction: row;
-
 }
 
 .Depoimentos{
-
- width: 100%;
+  width: 100%;
   background-color: #000000;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.Depoimentos :first-child{
+.depo{
   margin-top: 40px;
   color: white;
   font-size: 45px;
@@ -488,8 +502,8 @@ align-items: center;
 .segu{
   width: 649px;
   padding-left: 20px;
- font-size: 15px;
-margin-top: 20px;
+  font-size: 15px;
+  margin-top: 20px;
  }
 
  .planilha{
@@ -510,59 +524,63 @@ margin-top: 20px;
   height: 150px;
 }
 
-
  .sobre{
   display: flex;
   flex-direction: column;
   gap: 20px;
  }
 
- .sobre :first-child{
+ .logo-footer{
   display: flex;
   align-items: flex-start;
-  
  }
+
  .sobre :nth-child(2){
   color: #FE6219;
   font-size: 36px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  }
+
  .sobre :nth-child(3){
   color: #D3D3D3;
   font-size: 18px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 290px;
 }
+
 .sobre :nth-child(3){
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column;  
 }
+
 .contato :first-child{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #FE6219;
   font-size: 36px;
- 
 }
+
 .contato :nth-child(2){
   color: #D3D3D3;
   font-size: 18px;
 }
+
 .contato :last-child{
   color: #D3D3D3;
   font-size: 18px;
 }
+
 .links{
   display: flex;
   flex-direction: column;
 }
+
 .links :first-child{
   color: #FE6219;
   font-size: 30px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.links :nth-child(2){
+.nav-link{
   font-size: 14px;
   display: flex;
   flex-direction: column;
@@ -586,7 +604,6 @@ margin-top: 20px;
 .img-redes{
   display: flex;
   gap: 35px;
-  
 } 
 
 .explication{
@@ -606,11 +623,13 @@ margin-top: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 350px;
 }
+
 .h1-explication :nth-child(2){
   font-size: 14px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #000;
 }
+
 .contract{
   width: 250px;
   background-color: #FE6219;
@@ -619,6 +638,7 @@ margin-top: 20px;
   border: transparent;
   color: #FFFFFF;
 }
+
 .hotmart{
   height: 500px;
   align-self: center;
