@@ -710,6 +710,7 @@ align-items: center;
 
   main{
     height: 600px;
+
   }
   .resultado{
     font-size: 40px;
@@ -731,9 +732,23 @@ align-items: center;
   .divider-vertical{
     height: 50px;
   }
+  .h1-explication{
+    text-align: center;
+  }
+  .h1-explication :first-child{
+    width: 315px;
+  }
+  .h1-explication :last-child{
+    width: 250px;
+  }
   .write{
     align-items: center;
   }
+  .write-explication{
+    justify-content: center;
+    align-items: center;
+  }
+
   .square{
   align-items: center;
   } 
@@ -745,11 +760,58 @@ align-items: center;
     text-align: center;
     align-items: center;
   }
-  .help :nth-child(3){
+  .all-cards{
+    flex-direction: column;
+  }
+  .explication{
+    flex-direction: column;
+
+  }
+
+  .text-consult{
   width: 300px;
   font-size: 18px;
   }
+  .hotmart{
+    width: 300px;
+    height: 300px;
+  }
   
+  .card-dedo{
+    width: 300px;
 
+  }
+  .all-cards-p{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 350px;
+  }
+  .all-planos{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .img-depoi{
+    width: 388px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .d1{
+    width: 388px;
+  }
+  .primeiro{
+    width: 352px;
+
+  }
+  .segu{
+    width: 352px;
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+  .box{
+    width: 352px;
+  }
+  footer{
+    flex-direction: column;
+  }
   
 }
